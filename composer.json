@@ -1,18 +1,16 @@
 {
     "name": "basemaster/snoopy",
     "description": "snoopy",
-    "license": "GPLv2",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Clientbase"
         }
     ],
-	"require": {
-		"php": ">=5.4"
-	},
+	"require": {},
     "autoload": {
         "psr-4": {
-            "Snoopy\\": "src/"
+            "Basemaster\\Snoopy\\": "src/"
         }
     }
 }

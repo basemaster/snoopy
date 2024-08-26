@@ -8,10 +8,12 @@
             "name": "Clientbase"
         }
     ],
-	"require": {},
+	"require": {
+		"php": ">=5.4"
+	},
     "autoload": {
         "psr-4": {
-            "Basemaster\\Snoopy\\": "src/"
+            "Snoopy\\": "src/"
         }
     }
 }
